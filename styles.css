@@ -1,4 +1,8 @@
 body {
+  color: white;
+}
+
+#background {
   background: url(media/background.jpg) no-repeat black;
 
   -webkit-background-size: 100%;
@@ -6,12 +10,9 @@ body {
   -o-background-size: 100%;
   background-size: 100%;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 #overlay {
