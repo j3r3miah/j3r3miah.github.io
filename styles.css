@@ -22,7 +22,7 @@ body {
 }
 
 #content {
-  padding-top: 15%;
+  padding-top: 16%;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -52,6 +52,9 @@ a.button, a.button:hover {
 }
 
 @media(max-width: 1200px) {
+  #content {
+    padding-top: 18%;
+  }
   h1 {
     font-size: 3rem !important;
   }
